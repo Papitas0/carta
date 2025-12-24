@@ -1,0 +1,77 @@
+body {
+    background-color: #dad2ca;
+    font-family: "georgia", serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    }
+Header{
+        max-width: 700px;
+        margin: 60px auto;
+        background-color: #ffffff;
+        padding: 40px;
+        border-radius: 12px;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            }
+            header h2{
+                text-align: center;
+                font-size: 36px;
+                margin-bottom: 20px;
+                 }
+         Header p{
+            font-size: 18px;
+            line-height: 1.8;
+            margin-bottom: 15px;
+                     }   
+
+.recuerdo { 
+max-width: 600px;
+margin: 0 auto 50px;
+text-align: center;
+    }
+.recuerdo img {
+    width: 100%;
+    border-radius: 12px;
+    margin-bottom: 15px;
+    }
+.recuerdo p {
+    font-size: 18px;
+}
+.intro { 
+max-width: 600px;
+background-color: #FEFAF9
+}
+.intro h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+.intro p { 
+font-size: 19px;
+}
+.carta {
+    font-family: cursive;
+    max-width: 600px;
+    margin: 80px auto;
+    font-size: 19px;
+    text-align: center;
+    line-height: 1.8;
+}
+
+@media (max-width: 768px) {
+  body {
+    padding: 20px;
+  }
+
+  h2 {
+    font-size: 22px;
+  }
+
+  .recuerdo img {
+    width: 100%;
+  }
+
+  .carta {
+    font-size: 17px;
+  }
+}
+
